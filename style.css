@@ -1,0 +1,201 @@
+.homepage {
+    height: 100%;
+    background-image: url("Field.jpg");
+}
+
+.aboutpage {
+    height: 75%;
+    background-image: url("Field2.jpg");
+}
+
+.statspage {
+    height: 75%;
+    background-image: url("Runningjpg.jpg");
+}
+
+.teampage {
+    height: 30%;
+    background-image: url("Field.jpg");
+}
+
+.ALEast {
+  position: absolute;
+  top: 15%;
+  left: 30%;
+  transform: translate(-50%, -50%); 
+  font-size: 40px;
+  color: #ffffff;
+  text-shadow: 
+     -2px -2px 0 #000,  
+      2px -2px 0 #000,
+     -2px  2px 0 #000,
+      2px  2px 0 #000;
+}
+
+.ALCentral {
+  position: absolute;
+  top: 15%;
+  left: 55%;
+  transform: translate(-50%, -50%); 
+  font-size: 40px;
+  color: #ffffff;
+  text-shadow: 
+     -2px -2px 0 #000,  
+      2px -2px 0 #000,
+     -2px  2px 0 #000,
+      2px  2px 0 #000;
+}
+
+.ALWest {
+  position: absolute;
+  top: 15%;
+  left: 79%;
+  transform: translate(-50%, -50%); 
+  font-size: 40px;
+  color: #ffffff;
+  text-shadow: 
+     -2px -2px 0 #000,  
+      2px -2px 0 #000,
+     -2px  2px 0 #000,
+      2px  2px 0 #000;
+}
+
+.NLEast {
+  position: absolute;
+  top: 55%;
+  left: 30%;
+  transform: translate(-50%, -50%); 
+  font-size: 40px;
+  color: #ffffff;
+  text-shadow: 
+     -2px -2px 0 #000,  
+      2px -2px 0 #000,
+     -2px  2px 0 #000,
+      2px  2px 0 #000;
+}
+
+.NLCentral {
+  position: absolute;
+  top: 55%;
+  left: 55%;
+  transform: translate(-50%, -50%); 
+  font-size: 40px;
+  color: #ffffff;
+  text-shadow: 
+     -2px -2px 0 #000,  
+      2px -2px 0 #000,
+     -2px  2px 0 #000,
+      2px  2px 0 #000;
+}
+
+.NLWest {
+  position: absolute;
+  top: 58%;
+  left: 79%;
+  transform: translate(-50%, -50%); 
+  font-size: 40px;
+  color: #ffffff;
+  text-shadow: 
+     -2px -2px 0 #000,  
+      2px -2px 0 #000,
+     -2px  2px 0 #000,
+      2px  2px 0 #000;
+}
+
+
+
+h1 {
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  font-size: 75px;
+  color: #ffffff;
+  text-shadow: 
+     -2px -2px 0 #000,  
+      2px -2px 0 #000,
+     -2px  2px 0 #000,
+      2px  2px 0 #000;/* Adjust for the element's own size */
+}
+
+ol {
+  position: absolute;
+  top: 49%;
+  left: 52%;
+  transform: translate(-50%, -50%); 
+  font-size: 50px;
+  color: #ffffff;
+  text-shadow: 
+     -2px -2px 0 #ca2828,  
+      2px -2px 0 #ca2828,
+     -2px  2px 0 #ca2828,
+      2px  2px 0 #ca2828;
+}
+
+h2 {
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  font-size: 75px;
+  color: #ffffff;
+  text-shadow: 
+     -2px -2px 0 #000,  
+      2px -2px 0 #000,
+     -2px  2px 0 #000,
+      2px  2px 0 #000;/* Adjust for the element's own size */
+}
+
+ul {
+  position: absolute;
+  top: 50%;
+  left: 52%;
+  transform: translate(-50%, -50%); 
+  font-size: 40px;
+  color: #ffffff;
+  text-shadow: 
+     -2px -2px 0 #2429d1,  
+      2px -2px 0 #2429d1,
+     -2px  2px 0 #2429d1,
+      2px  2px 0 #2429d1;
+}
+
+.sidenav {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 350px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+} 
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 150px 8px 10px 16px;
+  text-decoration: none;
+  font-size: 100px;
+  color: #ffffff;
+  display: block;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #e91212;
+}
+
+/* Style page content */
+.main {
+  margin-left: 160px; /* Same as the width of the sidebar */
+  padding: 0px 10px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+} 
+
