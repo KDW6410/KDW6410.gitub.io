@@ -1,0 +1,8 @@
+//- this view is for rendering a list of chickens
+head
+    link(rel="stylesheet", href="css/player.css")
+
+ul 
+    each player in players
+        a(href="/players/"+player._id)
+            li= player.name

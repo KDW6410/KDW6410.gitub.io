@@ -1,0 +1,13 @@
+head
+    link(rel="stylesheet", href="/css/player.css")
+
+p Test
+p #{player}
+- const name = player.name
+ul 
+    li name: #{name} Jr.
+    li number: #{player.number}
+    li team: #{player.team}
+
+div.player 
+    p.name #{player.name}

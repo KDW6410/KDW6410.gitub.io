@@ -1,0 +1,8 @@
+include header
+include playerviz
+h1 Welcome to the dugout! 
+h2 Look at all these players: 
+div.players
+    div.dance#loadingIcon loading
+    each player in players 
+        +player(player.name, player.color)
