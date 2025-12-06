@@ -2,6 +2,7 @@
 .homepage,
 .aboutpage,
 .statspage,
+.tradepage,
 .teampage {
     min-height: 100vh;
     background-size: cover;
@@ -20,6 +21,10 @@
 
 .statspage {
     background-image: url("Night-ball.jpg");
+}
+
+.tradepage {
+     background-image: url("dirt.jpg");
 }
 
 .teampage {
